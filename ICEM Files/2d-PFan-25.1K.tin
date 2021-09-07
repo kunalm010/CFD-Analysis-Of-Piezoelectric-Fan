@@ -1,0 +1,122 @@
+// tetin file version 1.1
+// written by ICEM CFD - version 19.2 on Thu May 27 11:40:28 2021
+// written by ICEM CFD - version 19.2 on Thu May 27 12:05:19 2021
+// written by ICEM CFD - version 19.2 on Thu May 27 12:48:46 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 11:33:29 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 11:46:07 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 12:00:59 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 12:51:36 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 15:53:36 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 22:50:41 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 23:19:11 2021
+// written by ICEM CFD - version 19.2 on Sat Jun 5 13:19:42 2021
+// written by ICEM CFD - version 19.2 on Sat Jun 5 13:21:34 2021
+// written by ICEM CFD - version 19.2 on Sat Jun 19 22:26:59 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 29 12:58:13 2021
+// written by ICEM CFD - version 15.0 on Wed Jul 07 05:09:11 2021
+// written by ICEM CFD - version 15.0 on Thu Jul 08 03:12:29 2021
+// written by ICEM CFD - version 15.0 on Fri Jul 09 02:39:40 2021
+// written by ICEM CFD - version 19.2 on Thu May 27 11:40:28 2021
+// written by ICEM CFD - version 19.2 on Thu May 27 12:05:19 2021
+// written by ICEM CFD - version 19.2 on Thu May 27 12:48:46 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 11:33:29 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 11:46:07 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 12:00:59 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 12:51:36 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 15:53:36 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 22:50:41 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 1 23:19:11 2021
+// written by ICEM CFD - version 19.2 on Sat Jun 5 13:19:42 2021
+// written by ICEM CFD - version 19.2 on Sat Jun 5 13:21:34 2021
+// written by ICEM CFD - version 19.2 on Sat Jun 19 22:26:59 2021
+// written by ICEM CFD - version 19.2 on Tue Jun 29 12:58:13 2021
+// written by ICEM CFD - version 15.0 on Wed Jul 07 05:09:11 2021
+// written by ICEM CFD - version 15.0 on Thu Jul 08 03:12:29 2021
+// written by ICEM CFD - version 15.0 on Fri Jul 09 02:39:40 2021
+// written by ICEM CFD - version 15.0 on Sun Jul 11 02:35:21 2021
+// written by ICEM CFD - version 15.0 on Sun Jul 11 03:30:43 2021
+// written by ICEM CFD - version 15.0 on Sun Jul 11 04:36:41 2021
+// written by ICEM CFD - version 15.0 on Mon Jul 12 04:02:35 2021
+// written by ICEM CFD - version 19.2 on Mon Jul 12 12:36:17 2021
+// written by ICEM CFD - version 19.2 on Mon Jul 12 12:55:00 2021
+
+set_triangulation_tolerance 0.001
+define_family GEOM color 15676283
+define_family PLATETOP color 5176627
+define_family SIDES color 5911547
+define_family TOP color 15304499
+define_family BOTTOM color 8336365
+define_family VFLUID color 16019763
+
+prescribed_point 900 0 0 family GEOM name pnt.04 dormant
+prescribed_point 990 0 0 family GEOM name pnt.05 dormant
+prescribed_point 187.4 51.8 0 family GEOM name pnt.08.0 dormant
+prescribed_point 187.8 51.8 0 family GEOM name pnt.07.0 dormant
+prescribed_point 944.8 70 0 family GEOM name pnt.14 dormant
+prescribed_point 945.2 70 0 family GEOM name pnt.18 dormant
+prescribed_point 780 0 0 family GEOM name pnt.00
+prescribed_point 1110 0 0 family GEOM name pnt.01
+prescribed_point 900 0 0 family GEOM name pnt.04.3
+prescribed_point 990 0 0 family GEOM name pnt.05.3
+prescribed_point 187.4 51.8 0 family GEOM name pnt.08.0.3 dormant
+prescribed_point 187.8 51.8 0 family GEOM name pnt.07.0.3 dormant
+prescribed_point 944.8 70 0 family GEOM name pnt.14.17 dormant
+prescribed_point 945.2 70 0 family GEOM name pnt.18.17 dormant
+prescribed_point 900 300 0 family GEOM name pnt.16.0
+prescribed_point 900 300 0 family GEOM name pnt.12.0
+prescribed_point 780 300 0 family GEOM name pnt.03.0
+prescribed_point 990 300 0 family GEOM name pnt.17.0
+prescribed_point 990 300 0 family GEOM name pnt.13.0
+prescribed_point 1110 300 0 family GEOM name pnt.02.0
+prescribed_point 480 300 0 family GEOM name pnt.03.0.0
+prescribed_point 480 70 0 family GEOM name pnt.03.1
+prescribed_point 480 0 0 family GEOM name pnt.00.0
+prescribed_point 1410 300 0 family GEOM name pnt.02.0.0
+prescribed_point 1410 70 0 family GEOM name pnt.02.1
+prescribed_point 1410 0 0 family GEOM name pnt.01.0
+prescribed_point 480 45 0 family GEOM name pnt.06
+prescribed_point 480 20 0 family GEOM name pnt.07
+prescribed_point 1410 45 0 family GEOM name pnt.08
+prescribed_point 1410 20 0 family GEOM name pnt.09
+prescribed_point 945 0 0 family GEOM name pnt.21
+prescribed_point 945 0 0 family GEOM name pnt.22
+define_curve family PLATETOP tetra_size 1e+10 name crv.06 vertex1 pnt.04.3 vertex2 pnt.05.3
+bspline
+2,2,0
+0,0,1,1
+900,0,0
+990,0,0
+define_curve family SIDES tetra_size 1e+10 name crv.02
+bspline
+2,2,0
+0.83333331346512,0.83333331346512,1,1
+1410,300.00003576279,0
+1410,0,0
+define_curve family SIDES tetra_size 1e+10 name crv.04
+bspline
+2,2,0
+0.83333331346512,0.83333331346512,1,1
+480,300.00003576279,0
+480,0,0
+define_curve family TOP tetra_size 1e+10 name crv.01 vertex1 pnt.03.0.0 vertex2 pnt.02.0.0
+bspline
+2,2,0
+0,0,1,1
+480,300,0
+1410,300,0
+define_curve family BOTTOM tetra_size 1e+10 name crv.11 vertex1 pnt.00.0 vertex2 pnt.04.3
+bspline
+2,2,0
+0,0,1,1
+480,0,0
+900,0,0
+define_curve family BOTTOM tetra_size 1e+10 name crv.12 vertex1 pnt.05.3 vertex2 pnt.01.0
+bspline
+2,2,0
+0,0,1,1
+990,0,0
+1410,0,0
+affix 0
+define_model 1e+10 reference_size 1
+define_prism_meshing_parameters law 0 nlay 3 hratio 1.2 min_quality 0.01 fillet 0.1 tetra_smooth_limit 0.3
+return
